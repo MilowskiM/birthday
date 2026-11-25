@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081426">
+  <meta name="description" content="A touchdown celebration for Dad's 60th birthday. With love, Michael.">
+  <title>Happy 60th Birthday, Dad!</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="hero" aria-label="Dad's 60th birthday touchdown celebration">
+      <picture>
+        <source media="(max-aspect-ratio: 4/5)" srcset="Bears Birthday Touchdown at 60.png">
+        <img src="Chicago Bears 60th Birthday Stadium Celebration.png" alt="Dad in a Chicago Bears number 60 uniform running into the end zone beside a Bears birthday cake, with a stadium sign reading Happy Birthday 60." width="1536" height="1024" fetchpriority="high">
+      </picture>
+      <div class="confetti" aria-hidden="true"></div>
+      <div class="hero-controls">
+        <button class="motion" type="button" aria-pressed="false">Pause animation</button>
+        <a class="scroll" href="#message" aria-label="Read your birthday message"><span>Scroll for your card</span><i aria-hidden="true"></i></a>
+      </div>
+    </section>
+    <section class="message" id="message" aria-labelledby="greeting">
+      <div class="card">
+        <div class="stripes" aria-hidden="true"></div>
+        <h1 id="greeting">Happy birthday, Dad.</h1>
+        <p>Hope your next year goes as well as the Bears.</p>
+        <p>Thanks for always supporting me.</p>
+        <p class="signature">Love,<br><span>Michael</span></p>
+        <div class="stripes" aria-hidden="true"></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
